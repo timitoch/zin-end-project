@@ -150,7 +150,7 @@ function createMatrixAlt() {
   for (let i = 0; i < numCriteria; i++) {
 
     let criteriaHeader = document.createElement('div');
-    criteriaHeader.textContent = 'Показники для МПП альтернатив по відношенню критерію ' + criteriaNames[i];
+    criteriaHeader.textContent = 'Показники для МПП альтернатив по відношенню до критерію ' + criteriaNames[i];
     criteriaHeader.style.marginTop = '40px'; 
     criteriaHeader.style.fontWeight = 'bold'; 
     matrixInputContainerAlt.appendChild(criteriaHeader);
