@@ -153,7 +153,6 @@ function createMatrixAlt() {
     criteriaHeader.textContent = 'Показники для МПП альтернатив по відношенню до критерію ' + criteriaNames[i];
     criteriaHeader.style.marginTop = '40px'; 
     criteriaHeader.style.fontWeight = 'bold';
-    criteriaHeader.style.fontSize = '1.1vw';
     matrixInputContainerAlt.appendChild(criteriaHeader);
     
     let matrixContainer = document.createElement('div');
